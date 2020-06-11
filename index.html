@@ -40,6 +40,16 @@ layout: default
             <h3>No representatives found</h3>
             <p>We couldn't find any representatives for that address. Please try again.</p>
         </div>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Officials<small class="text-muted">Select an elected official</small>
+                    </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
         <div id='response-container' style="display:none;">
 
             <br />
@@ -65,16 +75,7 @@ layout: default
             <hr />
 
             <p class='text-center'><small><em>Note: Data comes from the <a target='_blank' href='https://developers.google.com/civic-information/'>Google Civic Information API</a>, which does not have 100% coverage of all representatives.<br />If you notice an issue with the data, please <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScFpFTOkTpm0YoerLLprY_ySS9PRXLsu27SM01hebHqkefW2Q/viewform'>report it to Google</a>.</em></small></p>
-            <div class="accordion" id="accordionExample">
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Officials<small class="text-muted">Select an elected official</small>
-                        </button>
-                        </h2>
-                    </div>
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+
                         <div class="card-body">
                             <div id='local-container'>
                                 <br />
