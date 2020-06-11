@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
 # web
-gem 'jekyll', '3.6.3'
+gem 'jekyll'
 gem 'jekyll-redirect-from'
+gem 'tzinfo'
+gem 'tzinfo-data'
